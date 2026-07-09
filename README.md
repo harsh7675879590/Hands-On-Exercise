@@ -1,50 +1,59 @@
 # 🚀 Java Full Stack Engineering (FSE) Learning Repository
 
-> A comprehensive collection of Java Full Stack Engineering exercises covering Core Java, Design Patterns, Data Structures & Algorithms, PL/SQL, Unit Testing, Spring Framework, JPA, and Hibernate.
+<p align="center">
+
+![Java](https://img.shields.io/badge/Java-21-orange?style=for-the-badge&logo=openjdk)
+![Spring](https://img.shields.io/badge/Spring-Framework-6DB33F?style=for-the-badge&logo=spring)
+![Hibernate](https://img.shields.io/badge/Hibernate-ORM-59666C?style=for-the-badge&logo=hibernate)
+![JPA](https://img.shields.io/badge/JPA-Persistence-blue?style=for-the-badge)
+![JUnit](https://img.shields.io/badge/JUnit-5-success?style=for-the-badge)
+![Maven](https://img.shields.io/badge/Maven-Build-red?style=for-the-badge&logo=apachemaven)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+
+</p>
+
+> **A comprehensive collection of Java Full Stack Engineering exercises covering Core Java, Design Patterns, Data Structures & Algorithms, PL/SQL, Testing Frameworks, Spring, JPA, and Hibernate.**
 
 ---
 
-# 📖 Overview
+# 📌 About
 
-This repository contains hands-on implementations completed during the **Java Full Stack Engineering (FSE)** learning program.
+This repository documents my learning journey through a **Java Full Stack Engineering (FSE)** program. It contains hands-on implementations of industry-standard software engineering concepts, ranging from Java fundamentals to enterprise application development using the Spring ecosystem.
 
-The objective of this repository is to strengthen software engineering fundamentals by implementing industry-standard concepts using Java and related technologies.
-
-The repository is organized week-wise to provide a structured learning path from programming fundamentals to enterprise application development.
+The repository is organized week-wise, enabling a structured progression from core programming concepts to backend enterprise technologies.
 
 ---
 
 # 🎯 Learning Objectives
 
-- Understand Object-Oriented Programming principles
-- Implement commonly used Design Patterns
-- Learn efficient Data Structures & Algorithms
-- Practice SQL and PL/SQL programming
-- Write unit tests using JUnit
-- Perform mocking using Mockito
-- Implement logging using SLF4J
-- Learn Dependency Injection with Spring Core
-- Build persistence layers using JPA
-- Work with Hibernate ORM
+- Master Object-Oriented Programming (OOP)
+- Apply SOLID Principles and Design Patterns
+- Strengthen Data Structures & Algorithms
+- Practice SQL & PL/SQL programming
+- Write reliable unit tests using JUnit
+- Perform mocking with Mockito
+- Implement logging using SLF4J & Logback
+- Understand Dependency Injection (DI) and IoC
+- Build persistence layers with JPA & Hibernate
+- Develop enterprise applications using Spring Framework
 
 ---
 
-# 📂 Repository Structure
+# 🗂 Repository Structure
 
-```
+```text
 Java-FSE
 │
 ├── Week1-DesignPatterns-DSA-PLSQL-TDD
 │   ├── DesignPatterns
-│   │      ├── Singleton Pattern
-│   │      └── Factory Method Pattern
+│   │   ├── Singleton Pattern
+│   │   └── Factory Method Pattern
 │   │
 │   ├── DSA
-│   │      ├── Ecommerce Platform Search
-│   │      └── Financial Forecasting
+│   │   ├── Ecommerce Platform Search
+│   │   └── Financial Forecasting
 │   │
 │   ├── JUnit-Mockito-SLF4J
-│   │
 │   └── PLSQL
 │
 └── Week2-SpringCore-JPA-Hibernate
@@ -55,15 +64,15 @@ Java-FSE
 
 ---
 
-# 📚 Technologies Used
+# 🛠 Tech Stack
 
 | Category | Technologies |
-|-----------|-------------|
-| Language | Java |
-| IDE | IntelliJ IDEA |
+|-----------|--------------|
+| Programming Language | Java 21 |
+| IDE | IntelliJ IDEA / Eclipse |
 | Build Tool | Maven |
-| Database | Oracle SQL / PL-SQL |
-| Framework | Spring Core |
+| Database | Oracle SQL & PL/SQL |
+| Framework | Spring Framework |
 | ORM | Hibernate |
 | Persistence | JPA |
 | Testing | JUnit 5 |
@@ -72,108 +81,103 @@ Java-FSE
 
 ---
 
-# 📌 Week 1
+# 📅 Week 1
 
-## 1. Design Patterns
+## 🎨 Design Patterns
 
 ### Singleton Pattern
+Implemented a thread-safe Logger using the Singleton Design Pattern.
 
-Implemented a Logger class using the Singleton Design Pattern.
-
-### Concepts Covered
-
-- Private Constructor
-- Static Instance
-- Global Access Point
+**Key Concepts**
+- Singleton
 - Lazy Initialization
+- Private Constructor
+- Global Access Point
 
 ---
 
 ### Factory Method Pattern
 
-Implemented document creation using Factory Method Pattern.
+Implemented document creation using Factory Method.
 
-Supported document types include:
+Supported document types:
 
 - PDF
 - Word
 - Excel
 
-### Concepts Covered
+**Key Concepts**
 
 - Factory Method
+- Abstraction
 - Polymorphism
-- Encapsulation
 - Open/Closed Principle
 
 ---
 
-## 2. Data Structures & Algorithms
+## 💻 Data Structures & Algorithms
 
 ### Ecommerce Platform Search
 
-Implemented two searching algorithms:
+Implemented and compared:
 
 - Linear Search
 - Binary Search
 
-### Learning Outcomes
+**Learning Outcomes**
 
 - Time Complexity Analysis
 - Performance Comparison
-- Searching in Arrays
+- Efficient Searching
 
 ---
 
 ### Financial Forecasting
 
-Implemented recursive financial forecasting.
+Implemented recursive forecasting models.
 
-### Concepts Covered
+**Key Concepts**
 
 - Recursion
 - Mathematical Modeling
-- Recursive Function Calls
+- Recursive Problem Solving
 
 ---
 
-## 3. PL/SQL Exercises
+## 🗄 PL/SQL
 
 Implemented:
 
-- Control Structures
+- Variables
 - Conditional Statements
 - Loops
 - Stored Procedures
-
-### Concepts Covered
-
-- Variables
 - Exception Handling
-- Procedures
-- SQL Integration
 
 ---
 
-## 4. JUnit, Mockito & Logging
+## ✅ Testing & Logging
 
-Implemented unit testing examples for Java applications.
+Worked with:
 
-### Topics Covered
+- JUnit 5
+- Mockito
+- SLF4J
+- Logback
+
+Covered:
 
 - Assertions
-- Test Lifecycle
 - Parameterized Tests
-- Mockito Mock Objects
+- Mock Objects
 - Dependency Mocking
-- Logging using SLF4J
-- Logback Configuration
+- Logging Best Practices
 
 ---
 
-# 📌 Week 2
+# 📅 Week 2
 
-## Spring Core
+## 🌱 Spring Core
 
 Implemented examples demonstrating:
 
@@ -184,24 +188,20 @@ Implemented examples demonstrating:
 
 ---
 
-## JPA
+## 🗃 JPA
 
-Implemented persistence examples using Java Persistence API.
-
-Topics include:
+Implemented persistence layer examples including:
 
 - Entity Mapping
-- Repository Layer
 - CRUD Operations
+- Repository Layer
 - Entity Relationships
 
 ---
 
-## Hibernate
+## ⚙ Hibernate
 
-Implemented ORM examples using Hibernate.
-
-Topics include:
+Implemented ORM examples covering:
 
 - Session Management
 - Entity Persistence
@@ -212,49 +212,25 @@ Topics include:
 
 # 🚀 Getting Started
 
-## Clone Repository
+## Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/<repository-name>.git
+git clone https://github.com/<your-username>/Java-FSE.git
 ```
 
----
+## Navigate to Project
 
-## Open Project
+```bash
+cd Java-FSE
+```
 
-Open the project in:
-
-- IntelliJ IDEA
-- Eclipse
-- VS Code (Java Extension Pack)
-
----
-
-## Build Maven Projects
-
-Navigate to the respective module.
+## Build the Project
 
 ```bash
 mvn clean install
 ```
 
----
-
-## Run Java Programs
-
-Compile and execute:
-
-```bash
-javac MainApp.java
-
-java MainApp
-```
-
----
-
-# 🧪 Running Unit Tests
-
-Navigate to the Maven module and execute
+## Run Unit Tests
 
 ```bash
 mvn test
@@ -262,56 +238,73 @@ mvn test
 
 ---
 
-# 📈 Skills Demonstrated
+# 📚 Skills Demonstrated
 
 - Object-Oriented Programming
+- SOLID Principles
 - Design Patterns
-- Algorithms
-- Java Collections
+- Java Collections Framework
+- Data Structures & Algorithms
 - SQL & PL/SQL
 - Unit Testing
 - Mocking
 - Logging
+- Spring Framework
 - Dependency Injection
-- ORM
+- JPA
+- Hibernate ORM
 - Enterprise Java Development
 
 ---
 
-# 📖 Learning Outcome
+# 🎓 Learning Outcomes
 
-By completing these exercises, I gained practical experience in:
+Throughout this learning program, I gained practical experience in:
 
 - Writing clean and maintainable Java code
 - Applying software design principles
-- Developing enterprise applications
-- Writing testable code
-- Database interaction
-- Spring ecosystem fundamentals
+- Solving algorithmic problems efficiently
+- Building enterprise applications using Spring
+- Working with relational databases
+- Writing robust and testable code
+- Understanding backend architecture and persistence
 
 ---
 
-# 🔮 Future Enhancements
+# 🚀 Future Enhancements
 
-- Spring Boot Applications
-- REST APIs
+Planned additions to this repository include:
+
+- Spring Boot
+- RESTful APIs
 - Spring Security
+- JWT Authentication
+- Spring Data JPA
 - Microservices
 - Docker
 - Kubernetes
-- React Frontend
+- React Frontend Integration
 - CI/CD Pipelines
+- Cloud Deployment (AWS)
 
 ---
 
 # 👨‍💻 Author
 
-**Harshit Gupta**
+## Harshit Gupta
 
-AI & ML Undergraduate | Java Full Stack Enthusiast
+**AI & ML Undergraduate | Java Full Stack Developer | Software Engineering Enthusiast**
 
-Passionate about building scalable software solutions while continuously learning enterprise Java technologies.
+Passionate about building scalable backend systems, solving algorithmic problems, and continuously exploring modern Java technologies.
+
+📫 **GitHub:** https://github.com/<your-username>
+
+📧 **Email:** your-email@example.com
 
 ---
 
-# ⭐ If you found this repository helpful, consider giving it a Star.
+# ⭐ Support
+
+If you found this repository useful, consider giving it a **⭐ Star**. It motivates me to continue building and sharing high-quality learning resources.
+
+Happy Coding! 🚀
