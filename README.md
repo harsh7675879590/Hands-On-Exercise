@@ -3,24 +3,26 @@
 <p align="center">
 
 ![Java](https://img.shields.io/badge/Java-21-orange?style=for-the-badge&logo=openjdk)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot)
 ![Spring](https://img.shields.io/badge/Spring-Framework-6DB33F?style=for-the-badge&logo=spring)
-![Hibernate](https://img.shields.io/badge/Hibernate-ORM-59666C?style=for-the-badge&logo=hibernate)
+![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate)
 ![JPA](https://img.shields.io/badge/JPA-Persistence-blue?style=for-the-badge)
 ![JUnit](https://img.shields.io/badge/JUnit-5-success?style=for-the-badge)
 ![Maven](https://img.shields.io/badge/Maven-Build-red?style=for-the-badge&logo=apachemaven)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 </p>
 
-> **A comprehensive collection of Java Full Stack Engineering exercises covering Core Java, Design Patterns, Data Structures & Algorithms, PL/SQL, Testing Frameworks, Spring, JPA, and Hibernate.**
+> A comprehensive collection of hands-on Java Full Stack Engineering (FSE) exercises covering Core Java, Design Patterns, Data Structures & Algorithms, PL/SQL, Testing Frameworks, Spring Framework, Spring Boot, Spring Security, JPA, Hibernate, REST APIs, and JWT Authentication.
 
 ---
 
-# 📌 About
+# 📖 Overview
 
-This repository documents my learning journey through a **Java Full Stack Engineering (FSE)** program. It contains hands-on implementations of industry-standard software engineering concepts, ranging from Java fundamentals to enterprise application development using the Spring ecosystem.
+This repository documents my learning journey through the **Java Full Stack Engineering (FSE)** program.
 
-The repository is organized week-wise, enabling a structured progression from core programming concepts to backend enterprise technologies.
+The repository contains practical implementations of industry-standard software engineering concepts, progressing from Core Java fundamentals to enterprise application development using the Spring ecosystem.
+
+The exercises are organized week-wise, allowing a structured learning path from programming fundamentals to modern backend development.
 
 ---
 
@@ -29,17 +31,18 @@ The repository is organized week-wise, enabling a structured progression from co
 - Master Object-Oriented Programming (OOP)
 - Apply SOLID Principles and Design Patterns
 - Strengthen Data Structures & Algorithms
-- Practice SQL & PL/SQL programming
-- Write reliable unit tests using JUnit
-- Perform mocking with Mockito
-- Implement logging using SLF4J & Logback
-- Understand Dependency Injection (DI) and IoC
-- Build persistence layers with JPA & Hibernate
-- Develop enterprise applications using Spring Framework
+- Practice SQL & PL/SQL Programming
+- Write Unit Tests using JUnit
+- Perform Mocking with Mockito
+- Implement Logging using SLF4J
+- Learn Dependency Injection (DI) & IoC
+- Build Persistence Layers using JPA & Hibernate
+- Develop REST APIs using Spring Boot
+- Implement Authentication using Spring Security & JWT
 
 ---
 
-# 🗂 Repository Structure
+# 📂 Repository Structure
 
 ```text
 Java-FSE
@@ -56,10 +59,19 @@ Java-FSE
 │   ├── JUnit-Mockito-SLF4J
 │   └── PLSQL
 │
-└── Week2-SpringCore-JPA-Hibernate
-    ├── SpringCore-Exercises
-    ├── JPA-Exercises
-    └── Hibernate-Exercises
+├── Week2-SpringCore-JPA-Hibernate
+│   ├── Spring Core
+│   ├── JPA
+│   └── Hibernate
+│
+└── Week3-SpringBoot
+    ├── Spring Boot REST APIs
+    ├── Spring Security
+    ├── JWT Authentication
+    ├── Spring Data JPA
+    ├── Validation
+    ├── H2 Database
+    └── CRUD Operations
 ```
 
 ---
@@ -71,13 +83,16 @@ Java-FSE
 | Programming Language | Java 21 |
 | IDE | IntelliJ IDEA / Eclipse |
 | Build Tool | Maven |
-| Database | Oracle SQL & PL/SQL |
-| Framework | Spring Framework |
+| Database | Oracle SQL, PL/SQL, H2 Database |
+| Frameworks | Spring Framework, Spring Boot |
 | ORM | Hibernate |
-| Persistence | JPA |
+| Persistence | Spring Data JPA |
+| REST | Spring MVC |
+| Security | Spring Security, JWT |
 | Testing | JUnit 5 |
 | Mocking | Mockito |
 | Logging | SLF4J & Logback |
+| Utilities | Lombok |
 
 ---
 
@@ -86,10 +101,12 @@ Java-FSE
 ## 🎨 Design Patterns
 
 ### Singleton Pattern
-Implemented a thread-safe Logger using the Singleton Design Pattern.
 
-**Key Concepts**
-- Singleton
+Implemented a Logger class using the Singleton Design Pattern.
+
+### Concepts Covered
+
+- Singleton Design Pattern
 - Lazy Initialization
 - Private Constructor
 - Global Access Point
@@ -98,7 +115,7 @@ Implemented a thread-safe Logger using the Singleton Design Pattern.
 
 ### Factory Method Pattern
 
-Implemented document creation using Factory Method.
+Implemented document creation using Factory Method Pattern.
 
 Supported document types:
 
@@ -106,11 +123,12 @@ Supported document types:
 - Word
 - Excel
 
-**Key Concepts**
+### Concepts Covered
 
 - Factory Method
-- Abstraction
 - Polymorphism
+- Abstraction
+- Encapsulation
 - Open/Closed Principle
 
 ---
@@ -119,16 +137,16 @@ Supported document types:
 
 ### Ecommerce Platform Search
 
-Implemented and compared:
+Implemented
 
 - Linear Search
 - Binary Search
 
-**Learning Outcomes**
+### Learning Outcomes
 
 - Time Complexity Analysis
+- Searching Algorithms
 - Performance Comparison
-- Efficient Searching
 
 ---
 
@@ -136,11 +154,11 @@ Implemented and compared:
 
 Implemented recursive forecasting models.
 
-**Key Concepts**
+### Concepts Covered
 
 - Recursion
+- Recursive Thinking
 - Mathematical Modeling
-- Recursive Problem Solving
 
 ---
 
@@ -149,8 +167,8 @@ Implemented recursive forecasting models.
 Implemented:
 
 - Variables
-- Conditional Statements
 - Loops
+- Conditional Statements
 - Stored Procedures
 - Exception Handling
 
@@ -158,16 +176,17 @@ Implemented:
 
 ## ✅ Testing & Logging
 
-Worked with:
+Worked with
 
 - JUnit 5
 - Mockito
 - SLF4J
 - Logback
 
-Covered:
+Covered
 
 - Assertions
+- Test Lifecycle
 - Parameterized Tests
 - Mock Objects
 - Dependency Mocking
@@ -179,7 +198,7 @@ Covered:
 
 ## 🌱 Spring Core
 
-Implemented examples demonstrating:
+Implemented examples demonstrating
 
 - Dependency Injection
 - Inversion of Control
@@ -188,9 +207,9 @@ Implemented examples demonstrating:
 
 ---
 
-## 🗃 JPA
+## 🗃 Java Persistence API (JPA)
 
-Implemented persistence layer examples including:
+Implemented persistence examples including
 
 - Entity Mapping
 - CRUD Operations
@@ -201,7 +220,7 @@ Implemented persistence layer examples including:
 
 ## ⚙ Hibernate
 
-Implemented ORM examples covering:
+Implemented ORM examples covering
 
 - Session Management
 - Entity Persistence
@@ -210,27 +229,122 @@ Implemented ORM examples covering:
 
 ---
 
+# 📅 Week 3
+
+## 🚀 Spring Boot
+
+Developed backend applications using Spring Boot following enterprise-level architecture.
+
+### Topics Covered
+
+- Spring Boot Project Structure
+- Spring MVC
+- RESTful APIs
+- Dependency Injection
+- Layered Architecture
+- Configuration Management
+- Exception Handling
+- DTO Design
+- CRUD Operations
+
+---
+
+## 🗃 Spring Data JPA
+
+Implemented persistence layer using Spring Data JPA.
+
+### Concepts Covered
+
+- Entity Mapping
+- Repository Interfaces
+- Query Methods
+- CRUD Repository
+- Transactions
+
+---
+
+## 🔐 Spring Security
+
+Implemented authentication and authorization using Spring Security.
+
+### Concepts Covered
+
+- Authentication
+- Authorization
+- Password Encoding
+- Security Configuration
+- Role-Based Access Control
+- UserDetails Service
+
+---
+
+## 🔑 JWT Authentication
+
+Implemented secure authentication using JSON Web Tokens.
+
+### Topics Covered
+
+- JWT Token Generation
+- JWT Validation
+- Stateless Authentication
+- Authentication Filters
+- Token Parsing
+
+---
+
+## 💾 Database Integration
+
+Used H2 in-memory database for development and testing.
+
+### Concepts Covered
+
+- H2 Console
+- Data Initialization
+- JPA Integration
+- Schema Generation
+
+---
+
+## ✔ Validation
+
+Implemented request validation using Jakarta Bean Validation.
+
+### Topics Covered
+
+- @Valid
+- Custom Validation
+- Constraint Annotations
+- Exception Handling
+
+---
+
 # 🚀 Getting Started
 
-## Clone the Repository
+## Clone Repository
 
 ```bash
 git clone https://github.com/<your-username>/Java-FSE.git
 ```
 
-## Navigate to Project
+---
+
+## Navigate to Repository
 
 ```bash
 cd Java-FSE
 ```
 
-## Build the Project
+---
+
+## Build Project
 
 ```bash
 mvn clean install
 ```
 
-## Run Unit Tests
+---
+
+## Run Tests
 
 ```bash
 mvn test
@@ -238,54 +352,64 @@ mvn test
 
 ---
 
-# 📚 Skills Demonstrated
+# 📈 Skills Demonstrated
 
+- Core Java
 - Object-Oriented Programming
 - SOLID Principles
 - Design Patterns
-- Java Collections Framework
 - Data Structures & Algorithms
+- Java Collections
 - SQL & PL/SQL
 - Unit Testing
-- Mocking
+- Mockito
 - Logging
 - Spring Framework
-- Dependency Injection
-- JPA
+- Spring Boot
+- Spring MVC
+- REST API Development
+- Spring Data JPA
 - Hibernate ORM
-- Enterprise Java Development
+- Spring Security
+- JWT Authentication
+- Bean Validation
+- Layered Architecture
+- Enterprise Backend Development
 
 ---
 
 # 🎓 Learning Outcomes
 
-Throughout this learning program, I gained practical experience in:
+Through these exercises, I gained practical experience in:
 
-- Writing clean and maintainable Java code
-- Applying software design principles
+- Writing clean, modular, and maintainable Java code
+- Applying software engineering best practices
+- Implementing common Design Patterns
 - Solving algorithmic problems efficiently
-- Building enterprise applications using Spring
+- Developing RESTful backend applications
 - Working with relational databases
-- Writing robust and testable code
-- Understanding backend architecture and persistence
+- Building secure applications using Spring Security & JWT
+- Creating scalable enterprise applications using Spring Boot
 
 ---
 
 # 🚀 Future Enhancements
 
-Planned additions to this repository include:
+Planned additions include:
 
-- Spring Boot
-- RESTful APIs
-- Spring Security
-- JWT Authentication
-- Spring Data JPA
+- Spring Cloud
 - Microservices
 - Docker
 - Kubernetes
+- Redis
+- Apache Kafka
+- MySQL & PostgreSQL
+- Swagger / OpenAPI
+- GraphQL APIs
+- OAuth2 Authentication
+- AWS Deployment
+- CI/CD using GitHub Actions
 - React Frontend Integration
-- CI/CD Pipelines
-- Cloud Deployment (AWS)
 
 ---
 
@@ -295,16 +419,18 @@ Planned additions to this repository include:
 
 **AI & ML Undergraduate | Java Full Stack Developer | Software Engineering Enthusiast**
 
-Passionate about building scalable backend systems, solving algorithmic problems, and continuously exploring modern Java technologies.
+Passionate about building scalable backend systems, solving algorithmic problems, and continuously exploring enterprise Java technologies.
 
-📫 **GitHub:** https://github.com/<your-username>
+📫 GitHub: https://github.com/<your-username>
 
-📧 **Email:** your-email@example.com
+📧 Email: your-email@example.com
 
 ---
 
 # ⭐ Support
 
-If you found this repository useful, consider giving it a **⭐ Star**. It motivates me to continue building and sharing high-quality learning resources.
+If you found this repository helpful, consider giving it a ⭐ **Star**.
+
+It motivates me to continue building and sharing high-quality Java learning resources.
 
 Happy Coding! 🚀
