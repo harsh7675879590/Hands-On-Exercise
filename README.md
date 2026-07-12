@@ -502,9 +502,7 @@ Planned additions include:
 
 Passionate about building scalable backend systems, solving algorithmic problems, and continuously exploring enterprise Java technologies.
 
-📫 GitHub: https://github.com/<your-username>
-
-📧 Email: your-email@example.com
+📫 GitHub: https://github.com/harsh7675879590
 
 ---
 
