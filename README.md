@@ -39,6 +39,11 @@ The exercises are organized week-wise, allowing a structured learning path from 
 - Build Persistence Layers using JPA & Hibernate
 - Develop REST APIs using Spring Boot
 - Implement Authentication using Spring Security & JWT
+- Understand Microservice Architecture
+- Build Independent Spring Boot Services
+- Learn REST-based Service Communication
+- Set up React Development Environment
+- Understand Frontend-Backend Integration
 
 ---
 
@@ -49,13 +54,7 @@ Java-FSE
 │
 ├── Week1-DesignPatterns-DSA-PLSQL-TDD
 │   ├── DesignPatterns
-│   │   ├── Singleton Pattern
-│   │   └── Factory Method Pattern
-│   │
 │   ├── DSA
-│   │   ├── Ecommerce Platform Search
-│   │   └── Financial Forecasting
-│   │
 │   ├── JUnit-Mockito-SLF4J
 │   └── PLSQL
 │
@@ -64,14 +63,22 @@ Java-FSE
 │   ├── JPA
 │   └── Hibernate
 │
-└── Week3-SpringBoot
-    ├── Spring Boot REST APIs
-    ├── Spring Security
-    ├── JWT Authentication
-    ├── Spring Data JPA
-    ├── Validation
-    ├── H2 Database
-    └── CRUD Operations
+├── Week3-SpringBoot
+│   ├── Spring Boot REST APIs
+│   ├── Spring Security
+│   ├── JWT Authentication
+│   ├── Spring Data JPA
+│   ├── Validation
+│   ├── H2 Database
+│   └── CRUD Operations
+│
+└── Week4-Microservices-React-Setup
+    ├── Account Microservice
+    ├── Loan Microservice
+    ├── REST Controllers
+    ├── Spring Boot Services
+    ├── Maven Project Structure
+    └── React Environment Setup
 ```
 
 ---
@@ -318,6 +325,58 @@ Implemented request validation using Jakarta Bean Validation.
 
 ---
 
+# 📅 Week 4
+
+## ☁ Microservices
+
+Developed independent Spring Boot microservices following a modular architecture.
+
+### Projects
+
+- Account Microservice
+- Loan Microservice
+
+### Concepts Covered
+
+- Microservice Architecture
+- Independent Spring Boot Applications
+- REST Controllers
+- Request Mapping
+- Maven Multi-Project Structure
+- Service Isolation
+- Modular Backend Development
+
+---
+
+## 🌐 RESTful Services
+
+Implemented REST endpoints for handling banking-related operations.
+
+### Topics Covered
+
+- GET APIs
+- POST APIs
+- Request Mapping
+- Response Handling
+- Controller Layer
+- JSON Data Exchange
+
+---
+
+## ⚛ React Environment Setup
+
+Configured the frontend development environment for React applications.
+
+### Topics Covered
+
+- React Project Setup
+- Node.js Environment
+- npm Package Management
+- Project Structure
+- Frontend-Backend Integration Basics
+
+---
+
 # 🚀 Getting Started
 
 ## Clone Repository
@@ -350,8 +409,17 @@ mvn clean install
 mvn test
 ```
 
----
+## 🏗 Enterprise Architecture
 
+Learned how enterprise applications are divided into multiple services instead of one large application.
+
+### Key Learnings
+
+- Loose Coupling
+- High Scalability
+- Independent Deployment
+- Maintainability
+- Service-Oriented Design
 # 📈 Skills Demonstrated
 
 - Core Java
@@ -375,7 +443,12 @@ mvn test
 - Bean Validation
 - Layered Architecture
 - Enterprise Backend Development
-
+- Microservice Architecture
+- RESTful Service Development
+- React Environment Setup
+- Modular Application Design
+- Service-Oriented Architecture
+  
 ---
 
 # 🎓 Learning Outcomes
@@ -390,7 +463,12 @@ Through these exercises, I gained practical experience in:
 - Working with relational databases
 - Building secure applications using Spring Security & JWT
 - Creating scalable enterprise applications using Spring Boot
-
+- Built independent Spring Boot microservices
+- Understood modular backend architecture
+- Learned REST communication between services
+- Configured a React development environment
+- Explored enterprise-level application structuring
+  
 ---
 
 # 🚀 Future Enhancements
@@ -398,18 +476,21 @@ Through these exercises, I gained practical experience in:
 Planned additions include:
 
 - Spring Cloud
-- Microservices
+- Eureka Service Discovery
+- API Gateway
+- Config Server
 - Docker
 - Kubernetes
 - Redis
 - Apache Kafka
+- RabbitMQ
 - MySQL & PostgreSQL
 - Swagger / OpenAPI
 - GraphQL APIs
 - OAuth2 Authentication
-- AWS Deployment
 - CI/CD using GitHub Actions
 - React Frontend Integration
+- AWS Deployment
 
 ---
 
