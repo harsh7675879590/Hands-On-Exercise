@@ -9,10 +9,11 @@
 ![JPA](https://img.shields.io/badge/JPA-Persistence-blue?style=for-the-badge)
 ![JUnit](https://img.shields.io/badge/JUnit-5-success?style=for-the-badge)
 ![Maven](https://img.shields.io/badge/Maven-Build-red?style=for-the-badge&logo=apachemaven)
+![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react)
 
 </p>
 
-> A comprehensive collection of hands-on Java Full Stack Engineering (FSE) exercises covering Core Java, Design Patterns, Data Structures & Algorithms, PL/SQL, Testing Frameworks, Spring Framework, Spring Boot, Spring Security, JPA, Hibernate, REST APIs, and JWT Authentication.
+> A comprehensive collection of hands-on Java Full Stack Engineering (FSE) exercises covering Core Java, Design Patterns, Data Structures & Algorithms, PL/SQL, Spring Framework, Spring Boot, Spring Security, Microservices, React.js, REST APIs, JWT Authentication, and Enterprise Full Stack Development.
 
 ---
 
@@ -44,6 +45,13 @@ The exercises are organized week-wise, allowing a structured learning path from 
 - Learn REST-based Service Communication
 - Set up React Development Environment
 - Understand Frontend-Backend Integration
+- Learn React Fundamentals
+- Understand JSX and Component-Based Architecture
+- Manage State and Props
+- Handle Events in React
+- Build Interactive React Applications
+- Debug React Applications
+- Develop Responsive Frontend Interfaces
 
 ---
 
@@ -72,13 +80,25 @@ Java-FSE
 │   ├── H2 Database
 │   └── CRUD Operations
 │
-└── Week4-Microservices-React-Setup
-    ├── Account Microservice
-    ├── Loan Microservice
-    ├── REST Controllers
-    ├── Spring Boot Services
-    ├── Maven Project Structure
-    └── React Environment Setup
+├── Week4-Microservices-React-Setup
+│   ├── Account Microservice
+│   ├── Loan Microservice
+│   ├── REST Controllers
+│   ├── Spring Boot Services
+│   ├── Maven Project Structure
+│   └── React Environment Setup
+│
+└── Week5-React-Debugging
+    ├── My First React App
+    ├── Student App
+    ├── Blogger App
+    ├── Blog App
+    ├── Dashboard App
+    ├── Event Example App
+    ├── Cricket App
+    ├── Score Calculator App
+    ├── Office Space Rental App
+    └── Ticket Booking App
 ```
 
 ---
@@ -100,6 +120,13 @@ Java-FSE
 | Mocking | Mockito |
 | Logging | SLF4J & Logback |
 | Utilities | Lombok |
+| Frontend        | React.js          |
+| Language        | JavaScript (ES6+) |
+| Styling         | CSS3              |
+| UI              | JSX               |
+| Package Manager | npm               |
+| Runtime         | Node.js           |
+
 
 ---
 
@@ -377,6 +404,128 @@ Configured the frontend development environment for React applications.
 
 ---
 
+# 📅 Week 5
+
+## ⚛ React Fundamentals
+
+Built multiple React applications to understand component-based frontend development and debugging techniques.
+
+### Projects
+
+- My First React App
+- Student App
+- Blogger App
+- Blog App
+- Dashboard App
+- Event Example App
+- Cricket App
+- Score Calculator App
+- Office Space Rental App
+- Ticket Booking App
+
+---
+
+## 📚 Concepts Covered
+
+- React Project Structure
+- JSX
+- Functional Components
+- Component Rendering
+- Props
+- State Management
+- Conditional Rendering
+- Event Handling
+- List Rendering
+- CSS Integration
+- Component Communication
+- Debugging React Applications
+
+---
+
+## 💻 React Applications
+
+### My First React App
+
+- React Setup
+- JSX Syntax
+- Rendering Components
+
+---
+
+### Student App
+
+- Component Creation
+- Props
+- Data Rendering
+
+---
+
+### Blogger & Blog App
+
+- Component Composition
+- Layout Design
+- UI Rendering
+
+---
+
+### Dashboard
+
+- Component Organization
+- Dynamic Rendering
+- Dashboard Layout
+
+---
+
+### Event Example App
+
+- Event Handling
+- Click Events
+- React Event Objects
+
+---
+
+### Cricket App
+
+- State Updates
+- Dynamic UI Rendering
+
+---
+
+### Score Calculator
+
+- User Input
+- State Management
+- Conditional Rendering
+
+---
+
+### Office Space Rental
+
+- Props
+- Lists
+- Dynamic Data Rendering
+- Conditional Styling
+
+---
+
+### Ticket Booking App
+
+- Component Interaction
+- State Management
+- User Interface Design
+
+---
+
+## 🎯 Learning Outcomes
+
+- Built reusable React components
+- Understood component-based architecture
+- Managed application state using React
+- Passed data using Props
+- Implemented Event Handling
+- Debugged React applications
+- Developed interactive frontend applications
+
 # 🚀 Getting Started
 
 ## Clone Repository
@@ -420,6 +569,7 @@ Learned how enterprise applications are divided into multiple services instead o
 - Independent Deployment
 - Maintainability
 - Service-Oriented Design
+
 # 📈 Skills Demonstrated
 
 - Core Java
@@ -448,6 +598,18 @@ Learned how enterprise applications are divided into multiple services instead o
 - React Environment Setup
 - Modular Application Design
 - Service-Oriented Architecture
+- React.js
+- JSX
+- Functional Components
+- Component-Based Architecture
+- Props
+- State Management
+- Event Handling
+- Conditional Rendering
+- List Rendering
+- React Debugging
+- Frontend Development
+- Responsive UI Development
   
 ---
 
@@ -468,7 +630,13 @@ Through these exercises, I gained practical experience in:
 - Learned REST communication between services
 - Configured a React development environment
 - Explored enterprise-level application structuring
-  
+- Developed multiple React applications
+- Learned reusable component design
+- Built dynamic user interfaces
+- Managed application state effectively
+- Improved debugging skills in React
+- Applied frontend development best practices
+
 ---
 
 # 🚀 Future Enhancements
@@ -490,6 +658,21 @@ Planned additions include:
 - OAuth2 Authentication
 - CI/CD using GitHub Actions
 - React Frontend Integration
+- AWS Deployment
+- React Router
+- Redux Toolkit
+- React Hooks (Advanced)
+- Context API
+- Material UI
+- Tailwind CSS
+- Axios
+- Form Validation
+- React + Spring Boot Integration
+- Docker
+- Kubernetes
+- Spring Cloud
+- Kafka
+- CI/CD
 - AWS Deployment
 
 ---
